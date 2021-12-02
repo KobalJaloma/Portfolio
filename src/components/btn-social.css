@@ -1,0 +1,14 @@
+.btn-social {
+    height: auto;
+    margin: 15px;
+    background-color: rgba(1, 1, 1, 0);
+    border: none;
+}
+.btn-social:hover .image-icon{
+    filter: invert(1);
+}
+.image-icon{
+    width: 110px;
+    height: auto;
+    transition: .5s ease;
+}

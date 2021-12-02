@@ -32,7 +32,42 @@
     flex: 2;
 }
 #SmallCard:hover #img-SmallCard{
-    filter: blur(2px);
+    filter: blur(3px);
+}
+#SmallCard:hover #overlay{
+    left: 37%;
+    transition: 0.7s
+}
+#SmallCard:not(:hover) #overlay{
+    transition: 0.7s
+}
+#SmallCard:hover #Text-SmallCard{
+    left: 35%;
+    top: 20%;
+}
+
+#Text-SmallCard{
+    position: absolute;
+    top: 45%;
+    left: 30%;
+    width: 200px;
+    transition: 0.7s ease;
+}
+#Text-SmallCard h1{
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    -webkit-user-select: none;
+    user-select: none; 
+}
+#main-title-SmallCard {
+    background-color: rgba(250, 250, 250, 0.7);
+    padding-top: 15px;
+    padding-bottom: 15px;  
+    width: 200px;
+    border: none;
 }
 
 #overlay{
@@ -47,8 +82,8 @@
     font-family: 'Lato', sans-serif;
     font-weight: 400;
     text-transform: uppercase;
-    
 }
+
 
 /* LONG CARD ITEMS*/
 #Text-LongCard{
@@ -68,6 +103,13 @@
     -webkit-user-select: none;
     user-select: none; 
 }
+#main-title{
+    background-color: rgba(250, 250, 250, 0.7);
+    padding-top: 15px;
+    padding-bottom: 15px;  
+    width: 200px;
+    border: none;
+}
 #overlay-LongCard {
     position: absolute;
     bottom: 100%;
@@ -86,6 +128,13 @@
 #LongCard:hover #Text-LongCard{
     top: 25%;
 }
+#SmallCard:hover #overlay-LongCard{
+    bottom: 0;
+    height: 100%;
+}
+#SmallCard:hover #Text-LongCard{
+    top: 25%;
+}
 
 #LongCard-Sinop {
     white-space: nowrap; 
@@ -101,13 +150,27 @@
 }
 
 
+/*SOCIAL FELXBOX*/
+#flex-social{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+
 /*BUTTON STYLES*/
 .btn-cards {
-    width: 200%;
-    background-color: rgba(250, 250, 250, 0.7);
+    background-color: rgba(250, 250, 250, 0.9);
     padding: 5px;  
-    padding-right: 10px;
-    padding-left: 10px;
+    width: 200px;
+    height: 50px;
     border: none;
 }
 .btn-cards:hover {
