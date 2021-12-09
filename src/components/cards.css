@@ -32,7 +32,7 @@
     flex: 2;
 }
 #SmallCard:hover #img-SmallCard{
-    filter: blur(3px);
+    filter: blur(1px);
 }
 #SmallCard:hover #overlay{
     left: 37%;
@@ -82,6 +82,7 @@
     font-family: 'Lato', sans-serif;
     font-weight: 400;
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 
@@ -120,6 +121,7 @@
     width: 100%;
     height: 0;
     transition: .5s ease;
+    cursor: default;
 }
 #LongCard:hover #overlay-LongCard{
     bottom: 0;

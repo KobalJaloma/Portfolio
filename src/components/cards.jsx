@@ -6,6 +6,13 @@ function Cards (){
     function test() {
         alert('Se ejecuto');      
     }
+    function openPDF() {
+        window.open("PDF/Vitae.PDF");
+    }
+
+    function redirectProyect() {
+        window.location = '/proyects';
+    }
 
     return(
         <div class="Cards">
@@ -22,7 +29,7 @@ function Cards (){
                 <div id="SmallCard">
                     <img src="img/Proyects.jpg" id="img-SmallCard"/>
                     <div id="overlay">
-                        <button class="btn-cards" onClick={test}><h1>Proyectos</h1></button>
+                        <button class="btn-cards" onClick={redirectProyect}><h1>Proyectos</h1></button>
                     </div>
                 </div>
                 <div id="SmallCard">
@@ -42,7 +49,7 @@ function Cards (){
                 <div id="SmallCard">
                     <img src="img/Vitae.jpg" id="img-SmallCard"/>
                     <div id="overlay">
-                        <button class="btn-cards" onClick={test}><h1>Vitae</h1> </button>
+                        <button class="btn-cards" onClick={openPDF}><h1>Vitae</h1> </button>
                     </div>
                 </div>
             </div>
