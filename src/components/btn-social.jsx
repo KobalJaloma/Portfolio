@@ -17,12 +17,10 @@ function SocialButton(prop) {
         if(socialKey == "telegram"){
             var win = window.open('https://web.telegram.org/k/'); 
             win.focus();
-            alert("reviza detalles code: btn-social.jsx");
         }   
         if(socialKey == "whatsapp"){
             var win = window.open('https://web.whatsapp.com/'); 
             win.focus();
-            alert("reviza detalles code: btn-social.jsx");
         }  
     }
 

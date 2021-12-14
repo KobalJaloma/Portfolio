@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Montserrat:ital,wght@0,100;0,200;0,600;1,500&family=Playfair+Display&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    margin-top: 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.banner h1 {
+    font-size: 150px;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    color: red;
+}
+
+.banner h3 {
+    font-size: 50px;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    color: black;
+}

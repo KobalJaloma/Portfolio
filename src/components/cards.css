@@ -2,13 +2,15 @@
 *{
     padding: 0;
     margin: 0;
+    transition: 0.5s ease;
 }
+
 .Cards{
     display: flex;
     flex-direction: column;
-    margin-left: 200px;
-    margin-right: 200px;
     height: 70%;
+    width: 1700px;
+    align-self: center;
 }
 #LongCard {
     flex: 1;;
@@ -141,7 +143,7 @@
 #LongCard-Sinop {
     white-space: nowrap; 
     color: white;
-    font-size: 20px;
+    font-size: 18px;
     font-family: 'Lato', sans-serif;
     position: absolute;
     overflow: hidden;
@@ -197,4 +199,264 @@
     display:block;
     transition: .7s ease;
 }
+@media (min-width: 1280px) and (max-width: 1700px){  
+    .Cards{
+        width: 1200px;
+        transition: 0.5s ease;
+    }
+    #SmallCard:hover #overlay{
+        left: 35%;
+        transition: 0.7s
+    }
+    #SmallCard:hover #Text-SmallCard{
+        left: 35%;
+        top: 15%;
+    }
+    #Text-SmallCard{
+        left: 30%;
+    }
+    #main-title-SmallCard{
+        width: 150px;
+    }
+    #overlay{
+        position: absolute;
+        top: 45%;
+        left: 30%;
+    }
+    /* LONG CARD ITEMS*/
+    #Text-LongCard{
+        top: 37%;
+        left: 35%;
+    }
+    #Text-LongCard h1 {
+        font-size: 20px;
+    }
+    #LongCard:hover #overlay-LongCard{
+        bottom: 0;
+        height: 100%;
+    }
+    #LongCard:hover #Text-LongCard{
+        top: 20%;
+    }
+    #SmallCard:hover #overlay-LongCard{
+        bottom: 0;
+        height: 100%;
+    }
+    #SmallCard:hover #Text-LongCard{
+        top: 25%;
+    }
+    #LongCard-Sinop {
+        font-size: 17px;
+    }    
+    
+    #img-LongCard{
+        height: 250px;
+    }
+    #img-SmallCard{
+        height: 250px;
+    }
+    .btn-cards {
+        width: 150px;
+    }
+}
 
+@media (min-width: 960px) and (max-width: 1279px){ 
+    .Cards {
+        width: 900px;
+    } 
+    #SmallCard:hover #overlay{
+        left: 33%;
+        transition: 0.7s
+    }
+    #SmallCard:hover #Text-SmallCard{
+        left: 32%;
+        top: 20%;
+    }
+    #Text-SmallCard{
+        left: 25%;
+    }
+    #main-title-SmallCard{
+        width: 150px;
+    }
+    
+    #overlay{
+        position: absolute;
+        top: 45%;
+        left: 25%;
+    }
+    /* LONG CARD ITEMS*/
+    #Text-LongCard{
+        top: 37%;
+        left: 30%;
+    }
+    #Text-LongCard h1 {
+        font-size: 20px;
+    }
+    #LongCard:hover #overlay-LongCard{
+        bottom: 0;
+        height: 100%;
+    }
+    #LongCard:hover #Text-LongCard{
+        top: 20%;
+    }
+    #SmallCard:hover #overlay-LongCard{
+        bottom: 0;
+        height: 100%;
+    }
+    #SmallCard:hover #Text-LongCard{
+        top: 25%;
+    }
+    #LongCard-Sinop {
+        font-size: 13px;
+    }    
+    
+    #img-LongCard{
+        height: 250px;
+    }
+    #img-SmallCard{
+        height: 250px;
+    }
+    .btn-cards {
+        width: 150px;
+    }
+}
+
+@media (min-width: 641px) and (max-width: 959px) {
+    .Cards{
+        width: 640px;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    #SmallCard:hover #overlay{
+        left: 40%;
+        transition: 0.7s
+    }
+    #SmallCard:hover #Text-SmallCard{
+        left: 40%;
+        top: 15%;
+    }
+    #Text-SmallCard{
+        left: 40%;
+    }
+    #main-title-SmallCard{
+        width: 150px;
+    }
+    #overlay{
+        position: absolute;
+        top: 45%;
+        left: 40%;
+    }
+    /* LONG CARD ITEMS*/
+    #Text-LongCard{
+        top: 37%;
+        left: 23%;
+    }
+    #Text-LongCard h1 {
+        font-size: 20px;
+    }
+    #LongCard:hover #overlay-LongCard{
+        bottom: 0;
+        height: 100%;
+    }
+    #LongCard:hover #Text-LongCard{
+        top: 20%;
+    }
+    #SmallCard:hover #overlay-LongCard{
+        bottom: 0;
+        height: 100%;
+    }
+    #SmallCard:hover #Text-LongCard{
+        top: 25%;
+    }
+    #LongCard-Sinop {
+        font-size: 20px;
+        white-space: normal; 
+        width: 450px;
+        margin-top: 40px;
+        text-align: center;
+    }    
+    
+    #img-LongCard{
+        height: 250px;
+    }
+    #img-SmallCard{
+        height: 250px;
+    }
+    .btn-cards {
+        width: 150px;
+    }
+    #Container-SmallCards{
+        flex-direction: column;
+    }
+    
+}
+
+@media (max-width: 640px){  
+    .Cards{
+        width: 640px;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    #SmallCard:hover #overlay{
+        left: 33%;
+        transition: 0.7s
+    }
+    #SmallCard:hover #Text-SmallCard{
+        left: 33%;
+        top: 15%;
+    }
+    #Text-SmallCard{
+        left: 33%;
+    }
+    #main-title-SmallCard{
+        width: 150px;
+    }
+    #overlay{
+        position: absolute;
+        top: 45%;
+        left: 33%;
+    }
+    /* LONG CARD ITEMS*/
+    #Text-LongCard{
+        top: 37%;
+        left: 23%;
+    }
+    #Text-LongCard h1 {
+        font-size: 20px;
+    }
+    #LongCard:hover #overlay-LongCard{
+        bottom: 0;
+        height: 100%;
+    }
+    #LongCard:hover #Text-LongCard{
+        top: 20%;
+    }
+    #SmallCard:hover #overlay-LongCard{
+        bottom: 0;
+        height: 100%;
+    }
+    #SmallCard:hover #Text-LongCard{
+        top: 25%;
+    }
+    #LongCard-Sinop {
+        font-size: 20px;
+        white-space: normal; 
+        width: 450px;
+        margin-top: 40px;
+        text-align: center;
+    }    
+    
+    #img-LongCard{
+        height: 250px;
+    }
+    #img-SmallCard{
+        height: 250px;
+    }
+    .btn-cards {
+        width: 150px;
+    }
+    #Container-SmallCards{
+        display: grid;
+    }
+    
+}

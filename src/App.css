@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&family=Playfair+Display&display=swap');
+.app{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+}
 .title{
   width: 100%;
   margin-bottom: 25px;

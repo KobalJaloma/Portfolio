@@ -3,13 +3,10 @@ import './cards.css';
 import SocialButton from "./btn-social";
 
 function Cards (){
-    function test() {
-        alert('Se ejecuto');      
-    }
+    
     function openPDF() {
         window.open("PDF/Vitae.PDF");
     }
-
     function redirectProyect() {
         window.location = '/proyects';
     }
