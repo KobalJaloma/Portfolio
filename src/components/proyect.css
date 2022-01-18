@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Montserrat:ital,wght@0,100;0,200;0,600;1,500&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+.proyect-Card {
+    width: 110rem;
+    height: 40rem;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    transition: 1s ease;
+}
+
+.proyect-Card:hover {
+    box-shadow: 1.5rem 1.5rem  #23967F;
+    
+}
+
+
+#proyect-img {
+    width: 45rem;
+    height: 30rem;
+    object-fit: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+    
+}
+
+#proyect-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    height: 90%;
+    gap: 1rem;
+
+}
+#proyect-info h1 {
+    font-size: 4.5rem;
+    color: #016FB9;
+    font-family: 'Lato', sans-serif;
+    
+}
+#proyect-info h3 {
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+.proyect-btn {
+    width: 20rem;
+    height: 6rem;
+    border: none;
+    background: #016FB9;
+    color: white;
+    font-size: 4rem;
+    cursor: pointer;
+    transition: 2s ease;
+}
+
+.proyect-btn:hover {
+    background: #23967F;
+}

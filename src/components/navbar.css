@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&family=Playfair+Display&display=swap');
+.nav-box {
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    background-image: linear-gradient(to right,#016FB9, #23967F);
+    
+}
+#item-box {
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: row;   
+}
+#nav-item {
+    display: flex;
+    align-items: center;
+}
+.main-btn {
+    font-family: 'Playfair Display', serif;
+    width: 16rem;
+    height: 4rem;
+    border-radius: 1rem;
+    background-color: transparent;
+    font-size: 3rem;
+    color: white;
+    border: none;
+    transition: 0.5s ease;
+}
+.main-btn:hover {
+    background-color: #212223;
+    cursor: pointer;
+}

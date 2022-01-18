@@ -5,19 +5,21 @@
   justify-content: center;
   flex-direction: column;
 }
-.title{
+.title {
   width: 100%;
   margin-bottom: 25px;
   margin-top: 50px;
 }
-.title h1{
+.title h1 {
   font-size: 70px;
   text-align: center;
   font-family: 'Playfair Display', serif;
+  color: black;
 }
-.title h3{
+.title h3 {
   font-size: 20px;
   text-align: center;
   font-family: 'Playfair Display', serif;
   text-transform: uppercase;
+  color: #23967F;
 }

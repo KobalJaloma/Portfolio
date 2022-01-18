@@ -1,6 +1,6 @@
-import react, { useState }from "react";
+import react, { useState } from "react";
 import './cards.css';
-import SocialButton from "./btn-social";
+import SocialButton from "../components/btn-social";
 
 function Cards (){
     
@@ -12,7 +12,12 @@ function Cards (){
     }
 
     return(
-        <div class="Cards">
+    <>
+        <div className="title">
+          <h1>Kobal Soft</h1>
+          <h3>Software Developer</h3>
+        </div>
+        <div className="Cards">
             <div id="LongCard">
                 <img  src="img/Sistemas.jpg" id="img-LongCard"/>
                 <div id="overlay-LongCard">
@@ -26,7 +31,7 @@ function Cards (){
                 <div id="SmallCard">
                     <img src="img/Proyects.jpg" id="img-SmallCard"/>
                     <div id="overlay">
-                        <button class="btn-cards" onClick={redirectProyect}><h1>Proyectos</h1></button>
+                        <button className="btn-cards" onClick={redirectProyect}><h1>Proyectos</h1></button>
                     </div>
                 </div>
                 <div id="SmallCard">
@@ -46,11 +51,12 @@ function Cards (){
                 <div id="SmallCard">
                     <img src="img/Vitae.jpg" id="img-SmallCard"/>
                     <div id="overlay">
-                        <button class="btn-cards" onClick={openPDF}><h1>Vitae</h1> </button>
+                        <button className="btn-cards" onClick={openPDF}><h1>Vitae</h1> </button>
                     </div>
                 </div>
             </div>
         </div>
+    </>
     )
 } 
 
